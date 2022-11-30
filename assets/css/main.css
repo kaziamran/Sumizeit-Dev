@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    padding: 0px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+body {
+    margin: 0px auto;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+}
+h1,h2,h3,h4, h5,h6{
+    margin: 0px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+button:focus, input:focus, select:focus, textarea:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible{
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.navbar-toggler:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+img{
+    width:100%;
+    display:block;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: transparent;
+}
+a, button{
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+._toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+._toggler.collapsed .navbar-toggler-icon {
+    background-image: url("../img/header-r8-menu-ic.svg") !important;
+    transition: 0.1s all ease-in-out;
+    max-width: 18px;
+}
+._toggler .navbar-toggler-icon {
+    background-image: url("../img/header-r8-menu-cross.svg") !important;
+    transition: 0.1s all ease-in-out;
+    max-width: 18px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
+/*header sumizeit section*/
+._header_sumizeit_wrapper {
+    margin: 18px 0;
+}
+._header_sumizeit_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._logo_img {
+    max-width: 164px;
+}
+._header_sumizeit_navbar_ul {
+    margin: 0 0 0 auto;
+    align-items: center;
+    gap: 0 38px;
+}
+._header_sumizeit_navbar_itm {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #1A3849;
+    display: inline-block;
+    transition: .2s all ease-in-out;
+}
+._header_sumizeit_navbar_itm:hover {
+    color: #32A8EE;
+}
+._header_sumizeit_navbar_r8_ul {
+    align-items: center;
+}
+._header_sumizeit_navbar_r8_li {
+    margin-left: 42px;
+}
+._header_sumizeit_navbar_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all ease-in-out;
+    width: 140px;
+    height: 50px;
+    background: #32A8EE;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+._header_sumizeit_navbar_login:hover {
+    background: #159dec;
+}
+
+._header_sumizeit_cont_wrap {
+    padding-top: 100px;
+}
+._header_sumizeit_cont_title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 73px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: #1A3849;
+    margin-bottom: 20px;
+}
+._header_sumizeit_cont_title_span {
+    color: #41AAE8;
+}
+._header_sumizeit_cont_para {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3D4B53;
+    max-width: 84%;
+    margin-bottom: 40px;
+}
+._header_sumizeit_cont_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all ease-in-out;
+    width: 189px;
+    height: 60px;
+    background: #32A8EE;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: #FFFFFF !important;
+}
+._header_sumizeit_cont_link:hover {
+    background: #159dec;
+}
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    
+}
+@media only screen and (max-width: 1199px) { 
+    ._header_sumizeit_navbar_ul {
+        gap: 0 32px;
+    }
+    ._header_sumizeit_navbar_r8_li {
+        margin-left: 30px;
+    }
+    ._header_sumizeit_cont_title {
+        font-size: 55px;
+    }
+    ._header_sumizeit_cont_para {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    ._header_sumizeit_cont_wrap {
+        padding-top: 40px;
+    }
+    ._header_sumizeit_navbar_ul, ._header_sumizeit_navbar_r8_ul {
+        align-items: flex-start;
+    }
+    ._header_sumizeit_navbar_r8_li {
+        margin-left: 0;
+    }
+    .nav-item.dropdown._header_sumizeit_navbar_li {
+        margin-bottom: 8px;
+    }
+    ._header_sumizeit_navbar_login {
+        width: 124px;
+        height: 44px;
+    }
+    ._header_sumizeit_cont {
+        margin-bottom: 12px;
+    }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    ._header_sumizeit_cont_title {
+        font-size: 48px;
+    }
+    ._header_sumizeit_cont_link {
+        width: 166px;
+        height: 54px;
+        font-size: 14px;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    ._header_sumizeit_cont_title {
+        font-size: 38px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    ._header_sumizeit_cont_link {
+        width: 150px;
+        height: 50px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 375px) {}
+/*header sumizeit section end*/
+/*feature sumizeit section*/
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    
+}
+@media only screen and (max-width: 1199px) { 
+    
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+   
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    
+}
+@media only screen and (max-width: 420px) {
+    
+}
+@media only screen and (max-width: 375px) {}
+/*feature sumizeit section end*/
+/*footer sumizeit section*/
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    
+}
+@media only screen and (max-width: 1199px) { 
+    
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+   
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    
+}
+@media only screen and (max-width: 420px) {
+    
+}
+@media only screen and (max-width: 375px) {}
+/*footer sumizeit section end*/
+/*------------------
+    Variable 
+------------------*/
+:root {
+    --color1: #fff;
+    --bg1:#000;
+}
