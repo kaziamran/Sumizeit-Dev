@@ -239,7 +239,33 @@ a, button{
 }
 @media only screen and (max-width: 375px) {}
 /*header sumizeit section end*/
-/*feature sumizeit section*/
+
+/*feature icon sumizeit section*/
+._feature_icon_sumizeit_wrapper {
+    padding-top: 118px;
+}
+._feature_icon_sumizeit_heading_txt {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1A3849;
+    margin-bottom: 24px;
+}
+
+._feature_icon_sumizeit_ics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 43px;
+}
+._feature_icon_sumizeit_ic_tag {
+    max-width: 140px;
+    object-fit: cover;
+}
 
 /* responsive css */
 /* Desktop/Laptop */
@@ -248,25 +274,170 @@ a, button{
     
 }
 @media only screen and (max-width: 1199px) { 
-    
+    ._feature_icon_sumizeit_ic {
+        margin: 0 0 20px;
+    }
 }
 /* Ipad pro */
 @media only screen and (max-width: 991px) {
-   
+    ._feature_icon_sumizeit_wrapper {
+        padding-top: 80px;
+    }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    ._feature_icon_sumizeit_wrapper {
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    ._feature_icon_sumizeit_heading_txt {
+        font-size: 22px;
+    }
+    ._feature_icon_sumizeit_ic_tag {
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width: 375px) {}
+/*feature icon sumizeit section end*/
+
+/*quality sumizeit section*/
+._quality_sumizeit_wrapper {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+._quality_sumizeit_heading_txt {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1A3849;
+    margin-bottom: 18px;
+}
+._quality_sumizeit_heading_para {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: #3D4B53;
+    max-width: 51%;
+    margin: 0 auto 30px;
+}
+
+
+._quality_sumizeit_card {
+    background: #FFFFFF;
+    box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 24px;
+    transition: .2s all ease;
+    margin: 20px 0;
+}
+._quality_sumizeit_card_ic {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 14px;
+}
+._quality_sumizeit_card_ic_tag {
+    width: 78px;
+    max-width: 78px;
+    animation: animationic .9s linear alternate infinite;
+}
+@keyframes animationic {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(5px);
+    }
+}
+
+._quality_sumizeit_card_cont_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+._quality_sumizeit_card_cont_txt {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #1A3849;
+}
+._quality_sumizeit_card_cont_para {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #3D4B53;
+    max-width: 67%;
+}
+._quality_sumizeit_card_cont_link_sp {
+    display: flex;
+}
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    ._quality_sumizeit_card_cont_para {
+        max-width: 80%;
+    }
+}
+@media only screen and (max-width: 1199px) { 
+    ._quality_sumizeit_heading_para {
+        max-width: 71%;
+    }
+    ._quality_sumizeit_card_cont_para {
+        max-width: 100%;
+    }
+    ._quality_sumizeit_card_cont_txt {
+        font-size: 18px;
+    }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    ._quality_sumizeit_heading_txt {
+        font-size: 40px;
+    }
+    ._quality_sumizeit_heading_para {
+        max-width: 100%;
+    }
 }
 /* Ipad/Mobile L */
 @media only screen and (max-width: 767px) {
-    
+    ._quality_sumizeit_wrapper {
+        padding-top: 50px;
+    }
+    ._quality_sumizeit_heading_txt {
+        font-size: 34px;
+    }
+    ._quality_sumizeit_heading_para {
+        font-size: 15px;
+    }
 }
 /* Mobile */
-@media only screen and (max-width: 575px) {
-    
-}
+@media only screen and (max-width: 575px) {}
 @media only screen and (max-width: 420px) {
-    
+    ._quality_sumizeit_card_ic_tag {
+        width: 66px;
+        max-width: 66px;
+    }
+    ._quality_sumizeit_heading_txt {
+        font-size: 30px;
+    }
+    ._quality_sumizeit_heading_para {
+        margin: 0 auto 20px;
+    }
 }
 @media only screen and (max-width: 375px) {}
-/*feature sumizeit section end*/
+/*quality sumizeit section end*/
+
 /*footer sumizeit section*/
 
 /* responsive css */
