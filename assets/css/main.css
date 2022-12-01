@@ -677,7 +677,6 @@ a, button{
 /*available sumizeit section*/
 ._available_sumizeit_wrapper {
     padding-top: 108px;
-    padding-bottom: 108px;
 }
 ._available_sumizeit_heading_title {
     font-family: 'Poppins';
@@ -756,6 +755,109 @@ a, button{
 }
 
 
+._portfolio_sumizeit_card_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+._portfolio_sumizeit_card {
+    margin-bottom: 44px;
+    width: 235px;
+}
+._portfolio_sumizeit_card_img {
+    position: relative;
+    transition: .2s all ease-in-out;
+    z-index: 10;
+    margin-bottom: 16px;
+}
+._portfolio_sumizeit_card_img::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.1);
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: .2s all ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 8px;
+    z-index: 1;
+}
+._portfolio_sumizeit_card_img:hover::before {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+
+._portfolio_sumizeit_card_img_span {
+    width: 0;
+    height: 0;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    z-index: 222;
+}
+._portfolio_sumizeit_card_img:hover ._portfolio_sumizeit_card_img_span {
+    visibility: visible;
+    opacity: 1;
+    width: 80px;
+    height: 80px;
+}
+
+._portfolio_sumizeit_card_cont_txt {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2C2C36;
+    margin-bottom: 4px;
+}
+._portfolio_sumizeit_card_cont_para {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #4F4F5F;
+}
+
+._portfolio_sumizeit_main_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+._portfolio_sumizeit_main_button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all ease-in-out;
+    width: 183px;
+    height: 54px;
+    background: #32A8EE;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: #FFFFFF !important;
+}
+._portfolio_sumizeit_main_button1:hover {
+    background: #159dec;
+}
+
 /* responsive css */
 /* Desktop/Laptop */
 @media only screen and (min-width: 1600px) {}
@@ -765,6 +867,9 @@ a, button{
     }
     ._portfolio_sumizeit_heading_para {
         max-width: 60%;
+    }
+    ._portfolio_sumizeit_card {
+        width: 200px;
     }
 }
 @media only screen and (max-width: 1199px) { 
@@ -777,6 +882,12 @@ a, button{
     ._portfolio_sumizeit_heading_para {
         max-width: 72%;
     }
+    ._portfolio_sumizeit_card_wrap {
+        justify-content: center;
+    }
+    ._portfolio_sumizeit_card {
+        margin: 0 8px 30px;
+    }
 }
 /* Ipad pro */
 @media only screen and (max-width: 991px) {
@@ -785,7 +896,7 @@ a, button{
     }
     ._portfolio_sumizeit_heading_title {
         max-width: 100%;
-        font-size: 38px;
+        font-size: 35px;
     }
 }
 /* Ipad/Mobile L */
@@ -793,7 +904,23 @@ a, button{
     ._portfolio_sumizeit_heading_title {
         font-size: 29px;
     }
+    ._portfolio_sumizeit_card_cont_txt {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    ._portfolio_sumizeit_main_button1 {
+        width: 160px;
+        height: 50px;
+        font-size: 15px;
+    }
 }
+/* mobile device */
+@media only screen and (max-width: 575px) {
+    ._portfolio_sumizeit_card {
+        width: 74%;
+    }
+}
+
 /* Mobile */
 @media only screen and (max-width: 420px) {
     ._portfolio_sumizeit_heading_title {
@@ -805,10 +932,60 @@ a, button{
 }
 @media only screen and (max-width: 375px) {}
 /*portfolio sumizeit section end*/
-/*------------------
-    Variable 
-------------------*/
-:root {
-    --color1: #fff;
-    --bg1:#000;
+
+/*interested sumizeit section*/
+._interested_sumizeit_wrapper {
+    padding-top: 120px;
 }
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    
+}
+@media only screen and (max-width: 1199px) { 
+    
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    
+}
+/* Mobile */
+@media only screen and (max-width: 420px) {
+  
+}
+@media only screen and (max-width: 375px) {}
+/*interested sumizeit section end*/
+
+/*footer sumizeit section*/
+
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    
+}
+@media only screen and (max-width: 1199px) { 
+    
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    
+}
+/* Mobile */
+@media only screen and (max-width: 420px) {
+  
+}
+@media only screen and (max-width: 375px) {}
+/*footer sumizeit section end*/
+
