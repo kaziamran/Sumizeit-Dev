@@ -303,6 +303,210 @@ a, button{
 @media only screen and (max-width: 375px) {}
 /*feature icon sumizeit section end*/
 
+/*opportunity sumizeit section*/
+._opportunity_sumizeit_wrapper {
+    background: #EAF7FF;
+    margin-top: 134px;
+    padding: 77px 0 92px;
+}
+._opportunity_sumizeit_heading_title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1A3849;
+    margin-bottom: 18px;
+}
+._opportunity_sumizeit_heading_title span {
+    display: block;
+}
+._opportunity_sumizeit_heading_para {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #1A3849;
+    margin: 0 auto 52px;
+    max-width: 51%;
+}
+
+._opportunity_sumizeit_line_cont_wrap {
+    padding: 0 30px 0;
+}
+._opportunity_sumizeit_line_cont_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+._opportunity_sumizeit_line_cont_box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    background: #32A8EE;
+    border-radius: 64px;
+    position: relative;
+}
+._opportunity_sumizeit_line_cont_box1::before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/opportunity-line-polygon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 11px;
+}
+._opportunity_sumizeit_line_cont_box1 span {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    background-image: url("../img/opportunity-Ellipse.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+._opportunity_sumizeit_line_cont {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+._opportunity_sumizeit_line_img {
+    padding: 0 47px 0;
+    margin-bottom: 17px;
+}
+
+._opportunity_sumizeit_bottm_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 47px 0;
+}
+._opportunity_sumizeit_bottm_cont1_para {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #1A3849;
+    max-width: 52%;
+    text-align: left;
+}
+._opportunity_sumizeit_bottm_cont1_para._last {
+    max-width: 100%;
+}
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    ._opportunity_sumizeit_heading_title {
+        font-size: 42px;
+    }
+    ._opportunity_sumizeit_heading_para {
+        max-width: 60%;
+    }
+}
+@media only screen and (max-width: 1199px) { 
+    ._opportunity_sumizeit_heading_para {
+        max-width: 72%;
+    }
+    ._opportunity_sumizeit_bottm_cont1_para {
+        font-size: 15px;
+        max-width: 54%;
+    }
+
+    ._last_div {
+        flex: 1 120px;
+    }
+    ._opportunity_sumizeit_line_img {
+        padding: 0 51px 0;
+    }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    ._opportunity_sumizeit_heading_title {
+        font-size: 33px;
+    }
+    ._opportunity_sumizeit_wrapper {
+        margin-top: 70px;
+        padding: 60px 0 70px;
+    }
+    ._opportunity_sumizeit_heading_para {
+        max-width: 100%;
+        font-size: 15px;
+    }
+    ._opportunity_sumizeit_line_cont_wrap {
+        padding: 0 22px 0;
+    }
+    ._opportunity_sumizeit_line_cont_box1 {
+        width: 90px;
+        height: 44px;
+    }
+    ._opportunity_sumizeit_line_cont {
+        font-size: 17px;
+    }
+    ._opportunity_sumizeit_line_img {
+        padding: 0 39px 0;
+    }
+    ._opportunity_sumizeit_bottm_cont {
+        padding: 0;
+    }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    ._opportunity_sumizeit_heading_title {
+        font-size: 26px;
+    }
+    ._opportunity_sumizeit_bottm_cont1_para {
+        font-size: 14px;
+        max-width: 72%;
+    }
+    ._opportunity_sumizeit_line_cont_wrap {
+        padding: 0 15px 0;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    ._opportunity_sumizeit_wrapper {
+        margin-top: 40px;
+        padding: 55px 0;
+    }
+}
+@media only screen and (max-width: 420px) {
+    ._opportunity_sumizeit_line_cont_box1 {
+        width: 74px;
+        height: 34px;
+    }
+    ._opportunity_sumizeit_line_cont {
+        font-size: 13px;
+    }
+    ._opportunity_sumizeit_line_cont_box1 span {
+        width: 15px;
+        height: 15px;
+    }
+    ._opportunity_sumizeit_line_img {
+        padding: 0 32px 0;
+    }
+    ._opportunity_sumizeit_bottm_cont1_para {
+        font-size: 12px;
+        max-width: 67%;
+    }
+}
+@media only screen and (max-width: 375px) {}
+/*opportunity sumizeit section end*/
+
 /*quality sumizeit section*/
 ._quality_sumizeit_wrapper {
     padding-top: 70px;
@@ -961,12 +1165,23 @@ a, button{
 }
 
 
-._interested_sumizeit_main_card_wrap {
+._interested_sumizeit_main_card_wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+._interested_sumizeit_main_card_wrap {
+    display: flex;
+    align-items: center;
     gap: 0 25px;
-    margin: 0 0 28px;
+    flex-wrap: wrap;
+}
+._interested_sumizeit_main_card_wrap.card_margin {
+    margin-bottom: 28px;
+}
+._interested_sumizeit_main_card_wrap.card_margin._card {
+    margin: 0 10px 28px;
 }
 ._interested_sumizeit_main_card {
     display: flex;
@@ -1015,6 +1230,13 @@ a, button{
     ._interested_sumizeit_main_heading_para {
         max-width: 100%;
     }
+    ._interested_sumizeit_main_card_wrap.card_margin._card {
+        margin: 0 0 28px;
+    }
+    ._interested_sumizeit_main_card {
+        width: 110px;
+        height: 44px;
+    }
 }
 /* Ipad/Mobile L */
 @media only screen and (max-width: 767px) {
@@ -1024,10 +1246,24 @@ a, button{
     ._interested_sumizeit_main_heading_para {
         font-size: 15px;
     }
+    ._interested_sumizeit_main_card_wrap {
+        justify-content: center;
+    }
+    ._interested_sumizeit_main_card_wrap {
+        gap: 0 18px;
+    }
+    ._interested_sumizeit_main_card_wrap.card_margin, ._interested_sumizeit_main_card_wrap.card_margin._card {
+        margin: 0;
+    }
+    ._interested_sumizeit_main_card {
+        margin: 0 0 20px;
+    }
 }
 /* Mobile */
 @media only screen and (max-width: 420px) {
-  
+    ._interested_sumizeit_main_heading_txt {
+        font-size: 25px;
+    }
 }
 @media only screen and (max-width: 375px) {}
 /*interested sumizeit section end*/
@@ -1178,7 +1414,10 @@ a, button{
     }
 }
 @media only screen and (max-width: 420px) {
-  
+    ._footer_sumizeit_logo {
+        width: 140px;
+        margin-bottom: 14px;
+    }
 }
 @media only screen and (max-width: 375px) {}
 /*footer sumizeit section end*/
