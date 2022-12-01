@@ -1274,6 +1274,10 @@ a, button{
 /*footer sumizeit section*/
 ._footer_sumizeit_wrapper {
     margin: 100px 0 40px;
+    overflow: hidden;
+}
+._footer_sumizeit_wrap {
+    overflow: hidden;
 }
 ._footer_sumizeit_logo {
     width: 164px;
