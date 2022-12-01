@@ -70,6 +70,9 @@ a, button{
 .dropdown-toggle::after {
     display: none;
 }
+.overflow {
+    overflow: hidden;
+}
 
 /*header sumizeit section*/
 ._header_sumizeit_wrapper {
