@@ -1301,6 +1301,9 @@ a, button{
     justify-content: flex-start;
     gap: 0 20px;
 }
+._footer_sumizeit_socail_ic {
+    display: flex;
+}
 ._footer_sumizeit_socail_ic svg {
     transition: .2s all ease-in-out;
     transform: translateY(0) scale(1);
