@@ -240,7 +240,6 @@ a, button{
         font-size: 13px;
     }
 }
-@media only screen and (max-width: 375px) {}
 /*header sumizeit section end*/
 
 /*feature icon sumizeit section*/
@@ -303,7 +302,6 @@ a, button{
         max-width: 120px;
     }
 }
-@media only screen and (max-width: 375px) {}
 /*feature icon sumizeit section end*/
 
 /*opportunity sumizeit section*/
@@ -507,7 +505,6 @@ a, button{
         max-width: 67%;
     }
 }
-@media only screen and (max-width: 375px) {}
 /*opportunity sumizeit section end*/
 
 /*quality sumizeit section*/
@@ -641,7 +638,6 @@ a, button{
         margin: 0 auto 20px;
     }
 }
-@media only screen and (max-width: 375px) {}
 /*quality sumizeit section end*/
 
 /*measure sumizeit section*/
@@ -806,7 +802,6 @@ a, button{
     color: #FFFFFF;
 }
 
-
 ._subscribe_sumizeit_bg_btn {
     display: flex;
     align-items: center;
@@ -924,6 +919,7 @@ a, button{
     }
 }
 /* Mobile */
+@media only screen and (max-width: 575px) {}
 @media only screen and (max-width: 420px) {
     ._available_sumizeit_wrapper {
         padding-top: 60px;
@@ -932,7 +928,6 @@ a, button{
         font-size: 27px;
     }
 }
-@media only screen and (max-width: 375px) {}
 /*available sumizeit section end*/
 
 /*portfolio sumizeit section*/
@@ -960,7 +955,6 @@ a, button{
     max-width: 51%;
     margin: 0 auto 45px;
 }
-
 
 ._portfolio_sumizeit_card_wrap {
     display: flex;
@@ -1126,8 +1120,10 @@ a, button{
     ._portfolio_sumizeit_card {
         width: 74%;
     }
+    ._portfolio_sumizeit_card_cont {
+        text-align: center;
+    }
 }
-
 /* Mobile */
 @media only screen and (max-width: 420px) {
     ._portfolio_sumizeit_heading_title {
@@ -1137,7 +1133,6 @@ a, button{
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 375px) {}
 /*portfolio sumizeit section end*/
 
 /*interested sumizeit section*/
@@ -1166,7 +1161,6 @@ a, button{
     max-width: 51%;
     margin: 0 auto 38px;
 }
-
 
 ._interested_sumizeit_main_card_wrapper {
     display: flex;
@@ -1263,12 +1257,12 @@ a, button{
     }
 }
 /* Mobile */
+@media only screen and (max-width: 575px) {}
 @media only screen and (max-width: 420px) {
     ._interested_sumizeit_main_heading_txt {
         font-size: 25px;
     }
 }
-@media only screen and (max-width: 375px) {}
 /*interested sumizeit section end*/
 
 /*footer sumizeit section*/
@@ -1334,7 +1328,6 @@ a, button{
     color: rgba(26, 56, 73, 1) !important;
 }
 
-
 ._footer_sumizeit_subscribe_form_inpt {
     border: 1px solid #000000;
     border-radius: 8px;
@@ -1389,7 +1382,6 @@ a, button{
 
 /* responsive css */
 /* Desktop/Laptop */
-
 @media only screen and (max-width: 1199px) { 
     ._footer_sumizeit_logo_cont {
         max-width: 92%;
@@ -1419,6 +1411,10 @@ a, button{
     ._footer_sumizeit_copyr8 {
         margin-top: 40px;
     }
+    ._footer_sumizeit_copyr8 {
+        margin-top: 25px;
+        justify-content: flex-start;
+    }
 }
 @media only screen and (max-width: 420px) {
     ._footer_sumizeit_logo {
@@ -1426,6 +1422,5 @@ a, button{
         margin-bottom: 14px;
     }
 }
-@media only screen and (max-width: 375px) {}
 /*footer sumizeit section end*/
 
